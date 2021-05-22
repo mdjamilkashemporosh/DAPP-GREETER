@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'KoHo', sans-serif;
+}
+body{
+    background: url('../Assets/dark-mosaic.png');
+    background-color: #343a40;
+}
+.Content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:90vw;
+}
+#Greeting{
+    font-size:2.5rem;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-align: center;
+}
+@media screen and (min-width:1024px) {
+    #Greeting{
+        font-size:4rem;
+    }
+    .Content{
+        width:700px;
+    }
+}
+.Logo{
+    height:70px;
+    display: block;
+    margin:10px auto;
+}
