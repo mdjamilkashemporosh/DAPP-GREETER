@@ -48,7 +48,7 @@ body{
 }
 .SubmitBTN:hover{
     transition:.5s;
-    background: linear-gradient(to right,#de6262 , #de6262 );
+    background: linear-gradient(to right,#de6262 , #de6262,#f09258 );
 }
 @media screen and (min-width:1024px) {
     #Greeting{
