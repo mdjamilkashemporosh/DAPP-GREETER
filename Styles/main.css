@@ -72,5 +72,9 @@ form{
     display: flex;
     justify-content: center;
     letter-spacing:1px;
-    color: #343a40;
 }
+#InputValue::placeholder {
+    opacity: 1;
+    font-size:17px;
+    color:rgba(255, 68, 0, 0.575);
+  }
